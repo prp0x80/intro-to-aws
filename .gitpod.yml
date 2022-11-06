@@ -2,7 +2,6 @@
 tasks:
   - name: "Quarto"
     init: >
-      gp sync-await server && 
       wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.2.253/quarto-1.2.253-linux-amd64.deb && 
       sudo dpkg -i quarto-1.2.253-linux-amd64.deb && 
       rm -f quarto-1.2.253-linux-amd64.deb && 

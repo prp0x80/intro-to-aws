@@ -3,7 +3,7 @@ project:
   render:
     - 01_cloud_concepts.ipynb
     - 02_aws_global_infra.ipynb
-    - 03_intreact_with_aws.ipynb
+    - 03_interact_with_aws.ipynb
     - 04_core_services.ipynb
     - 99_outro.ipynb
   title: "Introduction to AWS"
@@ -32,7 +32,7 @@ website:
     contents:
       - 01_cloud_concepts.ipynb
       - 02_aws_global_infra.ipynb
-      - 03_intreact_with_aws.ipynb
+      - 03_interact_with_aws.ipynb
       - 04_ec2.ipynb
 
 format:
