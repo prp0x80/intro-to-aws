@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/01_cloud_concepts.html</loc>
+    <lastmod>2022-11-07T02:25:39.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/02_aws_global_infra.html</loc>
+    <lastmod>2022-11-07T02:25:39.747Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/03_interact_with_aws.html</loc>
+    <lastmod>2022-11-07T02:25:40.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/04_ec2.html</loc>
+    <lastmod>2022-11-07T02:25:40.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/05_s3.html</loc>
+    <lastmod>2022-11-07T02:25:40.635Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/06_rds.html</loc>
+    <lastmod>2022-11-07T02:25:40.915Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/07_outro.html</loc>
+    <lastmod>2022-11-07T02:25:41.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prp0x80.github.io/intro-to-aws/08_challenge.html</loc>
+    <lastmod>2022-11-07T02:25:41.503Z</lastmod>
+  </url>
+</urlset>

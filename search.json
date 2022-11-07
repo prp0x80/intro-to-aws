@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "01_cloud_concepts.html",
+    "href": "01_cloud_concepts.html",
+    "title": "Fundamental Cloud Concepts",
+    "section": "",
+    "text": "Traditional data centers are collection of servers privately owned and maintained by an organizations.\n\nFollowing are some of the challenges of using traditional data centres:\n\nLarge upfront investment (CapEx)\nForecasting demand is difficult\nSlow to deploy new data centers and servers\nMaintaining data centers in expensive\nYou own all the security and compliance burden"
+  },
+  {
+    "objectID": "01_cloud_concepts.html#advantages-of-cloud-computing",
+    "href": "01_cloud_concepts.html#advantages-of-cloud-computing",
+    "title": "Fundamental Cloud Concepts",
+    "section": "Advantages of Cloud Computing",
+    "text": "Advantages of Cloud Computing\n\nPay as you go (OpEX)\nLow total cost of ownership (TCO)\nElastic resources\nIncreased speed and agility\nNo data center maintenance cost\nGlobal reach\n\nOn using cloud services, although the burden of security is shifted to cloud providers, it is still a shared responsiblity.Read about AWS shared responsibility models here\n\n\n\n\n\n\nElasticity\n\n\n\nElasticity is the ability to acquire resources as you need them and release resources when you no longer need them. In the cloud, you want to do this automatically."
+  },
+  {
+    "objectID": "01_cloud_concepts.html#cloud-computing",
+    "href": "01_cloud_concepts.html#cloud-computing",
+    "title": "Fundamental Cloud Concepts",
+    "section": "Cloud Computing",
+    "text": "Cloud Computing\n“Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the Internet with pay-as- you-go pricing.”\n— Amazon Web Services\n\nCloud Computing Models\nDepending the amount of control you want the users may select one of the following compute models:\n\nOn-Premises: Total control and management of all the resources in traditional data center.\nIaaS: Total control and management of all resources in the cloud.\nPaaS: Pre-defines network, storage, OS, and runtime, to allow developers to focus on development tasks.\nSaaS: No control over any layers, they are just meant to be used by end-users.\n\n\n\n\nCloud Deployment Models\nBased on the customer requirements, one of the following three cloud deployment models are used."
+  },
+  {
+    "objectID": "02_aws_global_infra.html",
+    "href": "02_aws_global_infra.html",
+    "title": "AWS Global Infrastructure",
+    "section": "",
+    "text": "Each region is in a specific geographical location\nEach geographical location has a cluster of data centers\nAWS has currently 27 launched regions each with multiple availability zones (AZs)\n\nFor up-to-date region map click here"
+  },
+  {
+    "objectID": "02_aws_global_infra.html#availability-zones",
+    "href": "02_aws_global_infra.html#availability-zones",
+    "title": "AWS Global Infrastructure",
+    "section": "Availability Zones",
+    "text": "Availability Zones\n\nAn availability zone comprises of one or more data centers\nEach AWS region has multiple (at least two) availability zones\nThey are located within the geographical area of the AWS region\nThey ensure redundant power, networking and connectivity\nThere are currently 87 availability zones globally\n\nMore details on AWS AZs can be found here\n\n\n\n\n\n\nAvailability\n\n\n\nExtent to which an application is fulfilling its intended business purpose. Applications that are highly-available are built in a manner where a single failure won’t lessen the application’s ability to be fully operational."
+  },
+  {
+    "objectID": "02_aws_global_infra.html#region-and-az-naming-convention",
+    "href": "02_aws_global_infra.html#region-and-az-naming-convention",
+    "title": "AWS Global Infrastructure",
+    "section": "Region and AZ naming convention",
+    "text": "Region and AZ naming convention\n\nRegion availability for AWS Directory Service"
+  },
+  {
+    "objectID": "02_aws_global_infra.html#aws-edge-locations",
+    "href": "02_aws_global_infra.html#aws-edge-locations",
+    "title": "AWS Global Infrastructure",
+    "section": "AWS Edge Locations",
+    "text": "AWS Edge Locations\n\nEdge locations are additional nodes set up to deliver content to the users with low latency\nThey are utilized by Amazon CloudFront and Amazon Route 53\nIt allows AWS to serve content from locations closest to users\nCurrently, there are 410+ points of presence across the globe\n\nRead more about edge locations here"
+  },
+  {
+    "objectID": "03_interact_with_aws.html",
+    "href": "03_interact_with_aws.html",
+    "title": "Interacting with AWS",
+    "section": "",
+    "text": "There are three ways to interact with AWS:"
+  },
+  {
+    "objectID": "03_interact_with_aws.html#aws-management-console",
+    "href": "03_interact_with_aws.html#aws-management-console",
+    "title": "Interacting with AWS",
+    "section": "AWS Management Console:",
+    "text": "AWS Management Console:\n\nA web based interface to configure, create, and manage resources\nAlso accessible via mobile app\nBeginner friendly and ideal for quickly testing out services\nClick here to access Kainos AWS Management Console"
+  },
+  {
+    "objectID": "03_interact_with_aws.html#aws-cli",
+    "href": "03_interact_with_aws.html#aws-cli",
+    "title": "Interacting with AWS",
+    "section": "AWS CLI",
+    "text": "AWS CLI\n\nA command line utility on Windows, Mac, and Linux\nEvery task that can be done in the console can be done with CLI\nIdeal for automating repetetive tasks\nRefer to AWS CLI Command Reference here"
+  },
+  {
+    "objectID": "03_interact_with_aws.html#aws-sdk",
+    "href": "03_interact_with_aws.html#aws-sdk",
+    "title": "Interacting with AWS",
+    "section": "AWS SDK",
+    "text": "AWS SDK\n\nAllows to manage resources programatically, thus allowing to automate interaction with the platform.\nThe SDK is available in all the popular languages: Java, .NET, Python, C++, Ruby, etc.\nA rich documentation for each SDK in each is available, for Python visit https://aws.amazon.com/sdk-for-python/"
+  },
+  {
+    "objectID": "03_interact_with_aws.html#demo",
+    "href": "03_interact_with_aws.html#demo",
+    "title": "Interacting with AWS",
+    "section": "Demo",
+    "text": "Demo\n\nSet up AWS Account\nSet up AWS CLI"
+  },
+  {
+    "objectID": "04_ec2.html",
+    "href": "04_ec2.html",
+    "title": "Amazon EC2",
+    "section": "",
+    "text": "Amazon Elastic Compute Cloud (Amazon EC2) offers secure and resizable compute capacity for virtually any workload.\n\n\nAmazon EC2 Instance Types\n\nDefines the processor, memory, and storage type\nCannot be changed without downtime\nProvided in the following categories\n\nGeneral purpose\nCompute, memory, and storage optimised\nAccelerated computing\n\nPricing is based on the instance type - https://instances.vantage.sh/\n\n\n\nRoot Device Type\n\nInstance Store: Ephemeral storage that is physically attached to the host the virtual server is running on\nElastic Block Store (EBS): Persistent storage that exists separate from the host the virtual server is running on\n\n\n\nAmazon Machine Image (AMI)\n\nIt’s a template that defines an EC2 instance\nAWS provided many AMI’s that can be leveraged\nCustom AMI’s can be created based on your configuration\nCommercial AMI’s are available in the AWS marketplace\n\n\n\nUse cases\n\nWeb-application hosting\nBatch processing\nWeb services endpoint\nDesktop in the cloud\n\n\n\nDemo\n\nCreate an EC2 instance using management console\nAccess EC2 instance via SSH\nInstall Jupyter Lab\nCreate new notebook, install libraries, process data."
+  },
+  {
+    "objectID": "05_s3.html",
+    "href": "05_s3.html",
+    "title": "Amazon S3",
+    "section": "",
+    "text": "Amazon Simple Storage Service (Amazon S3) is an object storage built to retrieve any amount of data from anywhere.\n\n\nAmazon S3 Non-archival Storage Classes\n\nStores files as objects in buckets\nProvides different storage classes for different use cases\n\nStandard: for freqently accessed data\nIntelligent Tiering: moves data to correct class based on usage\nStandard-IA: for infrequently accessed data with the standard resilience\nS3 One Zone-IA: for infrequently accessed data that is stored in only one AZ\n\nStores data across multiple availability zones\nEnables URL access for files\nOffers configurable rules for data lifecycle Can serve as a static website host\n\n\n\nUse cases\nFor fast storage and access of -\n\nImages, documents, tabular data in files, etc.\nMachine Learning models\nDatabase backups, logs, and other dumps\nHosting website\n\n\n\nDemo\n\nConnect to ai-academy-2022 S3 bucket\nUsing AWS Python SDK, list all the objects in the ai-academy-2022 bucket"
+  },
+  {
+    "objectID": "06_rds.html",
+    "href": "06_rds.html",
+    "title": "Amazon RDS",
+    "section": "",
+    "text": "Amazon Relational Database Service (Amazon RDS) allows easily to set up, operate, and scale a relational database in the cloud."
+  },
+  {
+    "objectID": "06_rds.html#challenge",
+    "href": "06_rds.html#challenge",
+    "title": "Amazon RDS",
+    "section": "Challenge",
+    "text": "Challenge\n\nUpload marketing data & notebook to AWS EC2 Jupyter Server\nRun the EDA notebook on EC2\nUpdate EDA notebook to load marketing data from ai-academy-2022 S3 bucket using Python SDK\nLoad marketing data into RDS"
+  },
+  {
+    "objectID": "07_outro.html",
+    "href": "07_outro.html",
+    "title": "AWS Certified Cloud Practitioner",
+    "section": "",
+    "text": "Much of the content for this section of the slides was based on the AWS Certified Cloud Practitioner exam guide, although we have only skimmed the surface."
+  },
+  {
+    "objectID": "07_outro.html#road-to-aws-certified-cloud-practitioner",
+    "href": "07_outro.html#road-to-aws-certified-cloud-practitioner",
+    "title": "AWS Certified Cloud Practitioner",
+    "section": "Road to AWS Certified Cloud Practitioner",
+    "text": "Road to AWS Certified Cloud Practitioner\nThis is an entry level certification which provides you with a foundation level knowledge of the AWS cloud.\n\n\n\n\nAWS Cloud Essentials\nStudy Guide\nRegistration\nCourse\nSample Questions\nJoin Kainos AWS Study Group\n\n\n\n\n\n\n\n\nRegister here for free"
+  },
+  {
+    "objectID": "08_challenge.html",
+    "href": "08_challenge.html",
+    "title": "Challenge",
+    "section": "",
+    "text": "Upload marketing data & notebook to AWS EC2 Jupyter Server\nRun the EDA notebook on EC2\nUpdate EDA notebook to load marketing data from ai-academy-2022 S3 bucket using Python SDK\nLoad marketing data into RDS"
+  }
+]
