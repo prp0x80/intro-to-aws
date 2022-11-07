@@ -4,8 +4,11 @@ project:
     - 01_cloud_concepts.ipynb
     - 02_aws_global_infra.ipynb
     - 03_interact_with_aws.ipynb
-    - 04_core_services.ipynb
-    - 05_outro.ipynb
+    - 04_ec2.ipynb
+    - 05_s3.ipynb
+    - 06_rds.ipynb
+    - 07_outro.ipynb
+    - 08_challenge.ipynb
   title: "Introduction to AWS"
   output-dir: ./_site
 
@@ -33,8 +36,13 @@ website:
       - 01_cloud_concepts.ipynb
       - 02_aws_global_infra.ipynb
       - 03_interact_with_aws.ipynb
-      - 04_ec2.ipynb
-      - 05_outro.ipynb
+      - section: "AWS Core Services"
+        contents:
+        - 04_ec2.ipynb
+        - 05_s3.ipynb
+        - 06_rds.ipynb
+      - 07_outro.ipynb
+      - 08_challenge.ipynb
 
 format:
   html:
